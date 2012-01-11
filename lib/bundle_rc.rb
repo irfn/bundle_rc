@@ -17,6 +17,4 @@ begin
   Thor
   BundleRc::CLI.init
 rescue Exception => e
-  puts 'error loading bundlerc...'
-  puts e
 end
