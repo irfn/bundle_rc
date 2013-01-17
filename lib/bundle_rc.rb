@@ -17,4 +17,5 @@ begin
   Thor
   BundleRc::CLI.init
 rescue Exception => e
+	puts "Failed to load files" + e
 end
